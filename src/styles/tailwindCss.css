@@ -1,0 +1,71 @@
+/* Import Tailwind CSS utilities */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+
+.footer {
+  @apply w-full bg-gray-700 text-center p-4;
+}
+
+.footer-text {
+  @apply block text-sm text-white sm:text-center dark:text-gray-400;
+}
+
+/* Ensure footer sticks to the bottom */
+.footer-wrapper {
+  @apply flex flex-col min-h-screen;
+}
+
+
+
+/* CSS for Toggle component--- */
+
+.toggle-slider {
+  @apply relative w-11 h-6 bg-gray-200 dark:bg-backgroundLight rounded-full peer-checked:bg-primary;
+}
+
+.toggle-knob {
+  @apply absolute top-[2px] left-[2px] w-5 h-5 bg-white border border-gray-300 rounded-full transition-transform duration-300;
+}
+
+.lightTheme{
+  @apply bg-white text-black
+}
+
+.darkTheme{
+  @apply bg-gray-800 text-white
+}
+
+
+/* ResponsiveTable Css */
+
+.table {
+  @apply min-w-full divide-y;
+}
+
+
+.header {
+  @apply px-6 py-3 text-left text-xs font-medium uppercase tracking-wider;
+}
+
+.cell {
+  @apply px-6 py-4  text-sm;
+}
+
+.cell-link {
+  @apply w-[500px] text-blue-500 truncate;
+}
+
+.button {
+  @apply p-1 bg-red-500 text-white rounded;
+}
+
+.container {
+  @apply overflow-x-auto max-w-full px-4 sm:px-6 lg:px-8 max-h-[45vh] overflow-scroll;
+}
+
+.wrapper {
+  @apply max-w-full lg:max-w-[500px] mx-auto;
+}
