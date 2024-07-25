@@ -24,8 +24,8 @@ A React-based personal dashboard application that allows users to toggle between
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/personal-dashboard.git
-cd personal-dashboard
+git clone https://github.com/SatishSonkamble050/personal-dash.git
+cd personal-dash
 ```
 
 ### 2. Install Dependencies
@@ -80,10 +80,6 @@ The application uses Zustand for state management. The store is located in `src/
 ## Styling
 
 The application uses Tailwind CSS for styling. Tailwind utility classes are applied directly in the JSX files and also managed via a global CSS file.
-
-## Contribution
-
-Contributions are welcome! Please fork the repository and submit a pull request with your changes. Ensure that your code adheres to the existing style and includes appropriate tests.
 
 ## License
 
